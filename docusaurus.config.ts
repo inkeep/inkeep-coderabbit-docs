@@ -15,10 +15,12 @@
  */
 
 import { themes as prismThemes } from "prism-react-renderer"
-import { EnumChangefreq } from "sitemap"
+import type { EnumChangefreq } from "sitemap"
 
 import type * as Preset from "@docusaurus/preset-classic"
 import type { Config } from "@docusaurus/types"
+
+console.log("THE API KEY LENGTH IS:", process.env.INKEEP_API_KEY?.length)
 
 const baseUrl = "/"
 
