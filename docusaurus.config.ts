@@ -20,7 +20,10 @@ import type { EnumChangefreq } from "sitemap"
 import type * as Preset from "@docusaurus/preset-classic"
 import type { Config } from "@docusaurus/types"
 
-console.log("THE API KEY LENGTH IS:", process.env.INKEEP_API_KEY?.length)
+console.log(
+	"THE API KEY LENGTH in the docusaurus config is:",
+	process.env.INKEEP_API_KEY?.length,
+)
 
 const baseUrl = "/"
 
